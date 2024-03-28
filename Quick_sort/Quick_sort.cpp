@@ -99,6 +99,7 @@ void display() {
     }
 
     cout << "\n\nNumber of Comparasions : " << cmp_count << endl;
+    cout << "Number of Data Movements : " << mov_count << endl;
 }
 
 int main()
