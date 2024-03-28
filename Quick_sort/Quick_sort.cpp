@@ -67,7 +67,12 @@ void q_short(int low, int high)
             j--;
             cmp_count++;
         }
-
+        cmp_count++;
+        if (i < j)
+        {
+            // swap/menukar elemen pada indeks i dengan elemen pada indeks j
+            swap(i, j);
+        }
 
     }
 }
