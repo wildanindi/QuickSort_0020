@@ -80,8 +80,11 @@ void q_short(int low, int high)
         swap(low, j);
     }
 
-
+    //untuk memanggil sort dan di urutkan dari kiri
     q_short(low, j - 1);
+
+    //untuk memanggil sort dan di urutkan dari kanan
+    q_short(j + 1, high);
 }
 
 int main()
