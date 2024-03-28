@@ -116,6 +116,7 @@ int main()
         if (ch == 'n' || ch == 'N')
             break;
 
+        system("pause");
         
     } while (true);
     
