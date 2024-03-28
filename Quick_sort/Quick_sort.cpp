@@ -73,7 +73,11 @@ void q_short(int low, int high)
             // swap/menukar elemen pada indeks i dengan elemen pada indeks j
             swap(i, j);
         }
+    }
 
+    if (low < j) {
+        //
+        swap(low, j);
     }
 }
 
