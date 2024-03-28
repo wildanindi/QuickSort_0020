@@ -29,6 +29,17 @@ void input() {
     }
 }
 
+// swap/menukar elemen pada indeks x dengan elemen pada indeks y
+
+void swap(int x, int y)
+{
+    int temp = arr[x];
+    arr[x] = arr[y];
+    arr[y] = temp;
+    mov_count++;
+
+}
+
 
 
 int main()
